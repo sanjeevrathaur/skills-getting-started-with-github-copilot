@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   signupForm.addEventListener("submit", async (event) => {
     event.preventDefault();
 
+    // Validate email
     const email = document.getElementById("email").value;
     const activity = document.getElementById("activity").value;
 
